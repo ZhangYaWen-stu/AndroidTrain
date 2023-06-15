@@ -22,11 +22,11 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         tv_control = (TextView)findViewById(R.id.tv_control);
         tv_control.setOnClickListener(this);
         tv_control.setOnLongClickListener(this);
-//        tv_bbs.setOnClickListener(this);
-//        tv_bbs.setOnLongClickListener(this);
+        tv_bbs.setOnClickListener(this);
+        tv_bbs.setOnLongClickListener(this);
         tv_bbs.setGravity(Gravity.BOTTOM|Gravity.LEFT);
-//        tv_bbs.setLines(8);
-        tv_bbs.setMaxLines(8);
+        tv_bbs.setLines(20);
+        tv_bbs.setMaxLines(20);
         tv_bbs.setMovementMethod(new ScrollingMovementMethod());
     }
 
