@@ -16,3 +16,4 @@ rootProject.name = "Train1"
 include ':app'
 include ':control'
 include ':chat'
+include ':train1'

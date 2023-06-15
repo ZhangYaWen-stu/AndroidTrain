@@ -13,6 +13,7 @@
             <option value="$PROJECT_DIR$/app" />
             <option value="$PROJECT_DIR$/chat" />
             <option value="$PROJECT_DIR$/control" />
+            <option value="$PROJECT_DIR$/train1" />
           </set>
         </option>
       </GradleProjectSettings>
